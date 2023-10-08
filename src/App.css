@@ -1,0 +1,169 @@
+.container_saldo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_app{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p{
+  margin: 0;
+}
+
+.saldo_colum{
+  width: 45%;
+}
+
+.input_100{
+  width: 100%;
+  padding: 0;
+  border: 1px solid white;
+}
+
+.saldo_parrafo{
+  border: 1px solid white;
+  padding: 0;
+  line-height: 1;
+  background: #3B3B3B;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+}
+
+section{
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form_horizontal{
+  display: flex;
+  flex-direction: column;
+}
+
+.label_form_horizontal{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form_horizontal select{
+  width: 76%;
+}
+
+.form_horizontal input {
+  width: 75%;
+}
+
+.modal{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #05050575;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content{
+  background: white;
+  width: 50%;
+  border-radius: 10px;
+
+}
+
+
+.modal-content-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.modal-content-body{
+  border-bottom: 1px solid black;
+  padding: 10px;
+  height: 100px;
+}
+
+.modal-content-header span{
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-content-header h2{
+  color: black;
+  margin: 0;
+}
+
+.modal-content-body p {
+  color: black;
+  margin: 0;
+}
+
+.modal-content-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista_movimientos{
+  padding: 0;
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.lista_movimientos_item{
+  display: flex;
+  padding: 5px 0;
+  border-bottom: 1px solid white;
+}
+
+.lista_movimientos .lista_movimientos_item:last-child{
+  border-bottom: 0px;
+}
+
+.lista_movimientos_item button{
+  width: 10%;
+  padding: 0;
+  font-size: 15px;
+}
+
+.lista_movimientos_item p{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.lista_movimientos_item p span{
+  text-align: center;
+  padding: 0 5px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.lista_movimientos_title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista_movimientos_title span{
+  background: #0275D8;
+  padding: 0 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+}
